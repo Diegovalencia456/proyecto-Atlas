@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background-image: url('../assets/images/banner-bk.jpg');
+height: 800px;
+background-size: cover;
+color: white;
+padding: 100px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.logo{
+    width: 120px;
+}
+h1{
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8f5f9;
+}
+nav{
+    width: 50%;
+    padding: 30px 20px 30px 0;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaaaaa;
+}
+button{
+    background-color: #00ffad;
+    color: #000;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 10%;
+}
+h2{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.section_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 15% 0 15%;
+    gap: 15%;
+}
+.section1{
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+}
+.section1 h3{
+    color: black;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.section1 h4{
+    color: black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1 p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px 10px 10px 0;
+}
+.imagen1{
+    width: 80%;
+}
+.contenedor_feature{
+    background: linear-gradient(163deg, #ffffff 50%, #00ffad 50%);
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+
+}
+.feature{
+    padding-top: 8%;
+    margin-right: -20%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+}
+.feature_img{
+    padding: 10% 5% 15% 25%;
+}
+.contenedor_feature h3{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.contenedor_feature p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+.contenedor_feature button{
+    background-color: #192440;
+    color: #ffffff;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20%;
+}
+.feature2{
+    background-color: #00ffad;
+    padding: 10%;
+}
+.feature2 img{
+    width: 37%;
+    margin-left: 70px;
+    display: flex;
+    margin-top: -200px;
+}
+.feature2_text{
+    color: #aaaaaa;
+    width: 40%;
+    display: block;
+    margin-left: 800px;
+    margin-top: -330px;
+}
+.feature2_text h3{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.feature2_text p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+.feature2_text button{
+    background-color: #192440;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size:1.2rem;
+    width: 25%;
+}
+.check1{
+    padding: 30px;
+    align-items: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 150px;
+}
+.check1 h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.check1 span{
+    font-size: 50px;
+}
+.check1 button{
+    width: 100%;
+}
+.check2{
+    padding: 30px;
+    align-items: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #192440;
+    color: white;
+    width: 20%;
+}
+.check2 h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.check2 span{
+    font-size: 50px;
+}
+.check2 button{
+    padding-right: 30px;
+}
+.check_pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.check2 button{
+    width: 50%;
+}
+.check2 button:hover{
+    background-color: #192440;
+    color: white;;
+}
+.check3{
+    padding: 30px;
+    align-items: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 150px;
+}
+.check3 h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.check3 span{
+    font-size: 50px;
+}
+.check3 button{
+    width: 60%;
+}
+.logos{
+    background-color: #eceeef;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contacto{
+    background-image: url('../assets/images/contact-bk.jpg');
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+.informacion{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.informacion h2{
+    font-size: 2.5rem;
+}
+
+.informacion p{
+    font-size: 1rem;
+    padding: 5px 0;
+    color: rgb(230, 229, 229);
+}
+
+.contacto-form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: #00ffad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+.contacto-form h3{
+    padding: 2%;
+
+}
+
+
+.contacto-form-name{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-form-subject{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto-form span{
+    font-size: 1rem;
+    padding: 5px 0;
+    color: rgb(230, 229, 229);
+}
+
+.contacto-form-name form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-form-name-contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+
+.contacto-form-name-contenedor input{
+    border-radius: 5px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #00ffad;
+}
+
+
+.contacto-form-subject span{
+    display: flex;
+}
+
+.contacto-form-subject input{
+    width: 450px;
+    border-radius: 5px;
+    height: 70px;
+    background: transparent;
+    border: 1px solid #00ffad;
+}
+.contacto-form-subject button{
+    margin-top: 5%;
+    width: 450px;
+}
+
+footer{
+    background-color: #192440;
+    padding: 3%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes i{
+    border: 1px solid white;
+    padding: 10%;
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: white;
+    color: #192440;
+}
+
