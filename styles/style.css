@@ -166,14 +166,13 @@ h2{
     width: 25%;
 }
 .check1{
-    padding: 30px;
     align-items: center;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 150px;
+    padding: 80px 150px;
 }
 .check1 h4{
     font-size: 30px;
@@ -186,7 +185,7 @@ h2{
     width: 100%;
 }
 .check2{
-    padding: 30px;
+    padding: 80px 150px;
     align-items: center;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
@@ -195,7 +194,6 @@ h2{
     text-align: center;
     background-color: #192440;
     color: white;
-    width: 20%;
 }
 .check2 h4{
     font-size: 30px;
@@ -213,23 +211,23 @@ h2{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    padding-bottom: 100px;
 }
 .check2 button{
-    width: 50%;
+    width: 100%;
 }
 .check2 button:hover{
     background-color: #192440;
     color: white;;
 }
 .check3{
-    padding: 30px;
     align-items: center;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 150px;
+    padding: 80px 150px;
 }
 .check3 h4{
     font-size: 30px;
@@ -364,5 +362,547 @@ footer{
     border-radius: 100px;
     background-color: white;
     color: #192440;
+}
+@media (max-width: 1279px){
+body{
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    header{
+        width: 100%;
+    }
+    header h1{
+        font-size: 59px;
+    }
+    header nav{
+        width: 100%;
+        font-size: 25px;
+    }
+    header button{
+        font-size: 15px;
+        width: 20%;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .section1 img{
+        font-size: 50px;
+        width: 100%;
+    }
+    .section1 h4{
+        font-size: 25px;
+    }
+    .section1 p{
+        font-size: 17px;
+    }
+    .contenedor_feature .feature{
+        padding: 40px 20px;
+    }
+    .contenedor_feature .feature h3{
+        font-size: 36px;
+    }
+    .contenedor_feature .feature p{
+        font-size: 18px;
+    }
+    .contenedor_feature .feature button{
+        width: 40%;
+        font-size: 15px;
+    }
+    .contenedor_feature img{
+        width: 73%;
+    }
+    .feature2 img{
+        font-size: 20px;
+        width: 45%;
+        margin: -150px 20px;
+    }
+    .feature2 .feature2_text h3{
+        font-size: 36px;
+    }
+    .feature2 .feature2_text p{
+        font-size: 18px;
+    }
+    .feature2 .feature2_text{
+        margin: -250px 450px;
+        width: 50%;
+
+    }
+    .feature2 .feature2_text button{
+        width: 35%;
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    .check h2{
+        font-size: 36px;
+        padding-bottom: 50px;
+    }
+    .check .check_pricing .check1{
+        width: 100%;
+       padding: 25px 75px;
+
+    }
+    
+    .check .check_pricing .check2{
+        width: 100%;
+        padding: 25px 75px;
+    }
+    .check .check_pricing .check3{
+        width: 100%;
+        padding: 25px 75px;
+    }
+    .check .check_pricing{
+       width: 100%;
+    }
+    .logos{
+        width: 100%;
+    }
+    .contacto .informacion h2{
+        font-size: 30px;
+        width: 70%;
+    }
+    .contacto .informacion p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .contacto .informacion{
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 920px){
+    body{
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    header{
+        width: 100%;
+    }
+    header h1{
+        font-size: 59px;
+    }
+    header nav{
+        width: 100%;
+        font-size: 25px;
+    }
+    header button{
+        font-size: 15px;
+        width: 20%;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .section1 img{
+        font-size: 50px;
+        width: 100%;
+    }
+    .section1 h4{
+        font-size: 25px;
+    }
+    .section1 p{
+        font-size: 17px;
+    }
+    .contenedor_feature .feature{
+        padding: 40px 20px;
+    }
+    .contenedor_feature .feature h3{
+        font-size: 36px;
+    }
+    .contenedor_feature .feature p{
+        font-size: 18px;
+    }
+    .contenedor_feature .feature button{
+        width: 40%;
+        font-size: 15px;
+    }
+    .contenedor_feature img{
+        width: 73%;
+    }
+    .feature2 img{
+        font-size: 20px;
+        width: 45%;
+        margin: -150px 20px;
+    }
+    .feature2 .feature2_text h3{
+        font-size: 36px;
+    }
+    .feature2 .feature2_text p{
+        font-size: 18px;
+    }
+    .feature2 .feature2_text{
+        margin: -200px 400px;
+        width: 50%;
+
+    }
+    .feature2 .feature2_text button{
+        width: 35%;
+        font-size: 15px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    .check h2{
+        font-size: 36px;
+        padding-bottom: 50px;
+    }
+    .check .check_pricing .check1{
+        width: 100%;
+       padding: 25px 75px;
+
+    }
+    
+    .check .check_pricing .check2{
+        width: 100%;
+        padding: 25px 75px;
+    }
+    .check .check_pricing .check3{
+        width: 100%;
+        padding: 25px 75px;
+    }
+    .check .check_pricing{
+       width: 100%;
+    }
+    .logos{
+        width: 100%;
+    }
+    .contacto .informacion h2{
+        font-size: 30px;
+        width: 70%;
+    }
+    .contacto .informacion p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .contacto .informacion{
+        margin-top: -50px;
+    }
+}
+
+    
+@media (max-width: 768px){
+    body{
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    main .logo{
+        width: 20%;
+    }
+    section p{
+        font-size: 20px;
+    }
+    header{
+        width: 100%;
+    }
+    header h1{
+        font-size: 38px;
+    }
+    header nav{
+        width: 100%;
+        font-size: 15px;
+    }
+    header button{
+        font-size: 11px;
+        width: 20%;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .section1 img{
+        font-size: 50px;
+        width: 100%;
+    }
+    .section1 h4{
+        font-size: 20px;
+    }
+    .section1 p{
+        font-size: 15px;
+    }
+    .contenedor_feature .feature{
+        padding: 10px 0px;
+        padding-bottom: 200px;
+        
+    }
+    .contenedor_feature .feature h3{
+        font-size: 25px;
+    }
+    .contenedor_feature .feature p{
+        font-size: 18px;
+    }
+    .contenedor_feature .feature button{
+        width: 40%;
+        font-size: 12px;
+    }
+    .contenedor_feature img{
+        width: 60%;
+        height: 60%;
+        margin: 40px 10px;
+    }
+    .feature2 img{
+        font-size: 20px;
+        width: 39%;
+        margin: -150px 20px;
+    }
+    .feature2 .feature2_text h3{
+        font-size: 25px;
+    }
+    .feature2 .feature2_text p{
+        font-size: 15px;
+    }
+    .feature2 .feature2_text{
+        margin: -150px 280px;
+        width: 50%;
+
+    }
+    .feature2 .feature2_text button{
+        width: 40%;
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .check h2{
+        font-size: 26px;
+        padding-bottom: 50px;
+    }
+    .check .check_pricing .check1{
+        width: 100%;
+       padding: 15px 45px;
+
+    }
+    .check .check_pricing .check1 h4{
+        font-size: 25px;
+    }
+    .check .check_pricing .check1 button{
+        width: 100%;
+        font-size: 15px;
+    }
+    .check .check_pricing .check2{
+         width: 100%;
+       padding: 15px 50px;
+    }
+    .check .check_pricing .check2 h4{
+        font-size: 25px;
+    }
+    .check .check_pricing .check2 button{
+        width: 100%;
+        font-size: 15px;
+    }
+    .check .check_pricing .check3{
+        width: 100%;
+       padding: 15px 45px;
+    }
+    .check .check_pricing .check3 h4{
+        font-size: 25px;
+    }
+    .check .check_pricing .check3 button{
+        width: 60%;
+        font-size: 15px;
+    }
+    .check .check_pricing{
+       width: 100%;
+    }
+    .logos{
+        width: 100%;
+    }
+    .logos img{
+        width: 17%;
+    }
+    .contacto .informacion h2{
+        font-size: 17px;
+        width: 60%;
+    }
+    .contacto .informacion p{
+        font-size: 12px;
+        width: 60%;
+    }
+    .contacto .informacion{
+        margin-top: -50px;
+    }
+    
+    .contacto-form-name-contenedor input{
+        width: 100%;
+        
+        padding-right: 100px;
+    }
+    .contacto-form-subject input{
+        width: 100%;
+        padding-right: 320px;
+    }
+    .contacto-form-subject button{
+        width: 100%;
+        padding: 13px 170px;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .redes i{
+        width: 20%;
+        padding: 10px;
+    }
+
+}
+@media (max-width: 480px){
+    section p{
+        font-size: 15px;
+    }
+    header button{
+        width: 50%;
+    }
+    .section_principal{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 23px;
+    }
+    .section1 h4{
+        font-size: 20px;
+    }
+    .section1 {
+        width: 80%;
+    }
+    .contenedor_feature{
+        width: 100%;
+        text-align: center;
+        padding: px
+    }
+    .contenedor_feature .feature h3{
+        font-size: 20px;
+        width: 100%;
+        padding: 20px 0px;
+        margin-left:138px;
+    }
+   .contenedor_feature .feature p{
+    margin-left: 140px;
+    padding: 20px 0px;
+    width: 100%;
+   }
+   .contenedor_feature .feature button{
+    width: 70%;
+    font-size: 12px;
+    margin-left: 160px;
+   }
+   .feature_img{
+    width: 100%;
+    padding: 350px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   }
+   .feature2 img{
+        width: 70%;
+        margin: -400px 90px;
+    }
+    .feature2 .feature2_text{
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .feature2 .feature2_text h3{
+        font-size: 20px;
+    }
+    .feature2 .feature2_text p{
+        font-size: 15px;
+    }
+    .feature2 .feature2_text{
+        margin: 440px 0px 0px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .feature2 .feature2_text button{
+        width: 45%;
+        font-size: 12px;
+        border-radius: 25px;
+    }
+    .check_pricing{
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+    }
+    .check .check_pricing .check1{
+        width: 100%;
+       padding: 5px 25px;
+
+    }
+    .check .check_pricing .check1 h4{
+        font-size: 25px;
+    }
+    .check .check_pricing .check1 button{
+        width: 60%;
+        font-size: 15px;
+    }
+    .check .check_pricing .check2{
+         width: 100%;
+       padding: 5px 25px;
+    }
+    .check .check_pricing .check2 h4{
+        font-size: 25px;
+    }
+    .check .check_pricing .check2 button{
+        width: 60%;
+        font-size: 15px;
+    }
+    .check .check_pricing .check3{
+        width: 100%;
+       padding: 5px 25px;
+    }
+    .check .check_pricing .check3 h4{
+        font-size: 25px;
+    }
+    .check .check_pricing .check3 button{
+        width: 60%;
+        font-size: 15px;
+    }
+    .logos{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
+    .contacto{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+    .contacto h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .contacto .informacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .contacto .informacion h2{
+        font-size: 30px;
+    }
+    .contacto .informacion p{
+        font-size: 15px;
+    }
+    .contacto-form-name-contenedor input{
+        width: 100%;
+        
+        padding-right: 100px;
+    }
+    .contacto-form-subject input{
+        width: 100%;
+        padding-right: 320px;
+    }
+    .contacto-form-subject button{
+        width: 100%;
+        padding: 13px 160px;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .redes i{
+        width: 20%;
+        padding: 10px;
+    }
+    
 }
 
